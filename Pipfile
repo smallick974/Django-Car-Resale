@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
+psycopg = {extras = ["binary", "pool"], version = "*"}
+pillow = "*"
 
 [dev-packages]
 
